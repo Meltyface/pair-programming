@@ -2,5 +2,8 @@ package com.kinbiko.pairprogramming;
 
 public abstract class Director {
 
-    public abstract void sayMyName();
+    public void sayMyName(){
+    	System.out.println("My name is: " + getName());
+    }
+    public abstract String getName();
 }
