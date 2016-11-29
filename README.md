@@ -25,9 +25,9 @@ Nate to maintain a glossary list
 
 * Git
     - Github
-    - clone
-    - add
-    - commit
+    - clone: Clones stuff to your local repository from the given url
+    - add: adds file to be commited
+    - commit: super saves
     - push
 
 * Eclipse
