@@ -25,10 +25,11 @@ Nate to maintain a glossary list
 
 * Git
     - Github: Website packed with open source git repositories
-    - clone
+    - clone: Clones stuff to your local repository from the given url
     - add: Add file(s) to next git commit
     - commit: Super save (need commit message detailing updates)
     - commit -m "Your message" 
     - push: Upload
+ 
 
 * Eclipse
