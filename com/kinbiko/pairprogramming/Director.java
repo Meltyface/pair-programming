@@ -1,6 +1,15 @@
 package com.kinbiko.pairprogramming;
 
-public abstract class Director {
-
-    public abstract void sayMyName();
+public class Director {
+	private String name;
+	
+    public void sayMyName(){
+    	System.out.println("My name is: " + getName());
+    }
+    public String getName(){
+    	return name;
+    }
+    public Director(String nameToSet){
+    	name = nameToSet;
+    }
 }
