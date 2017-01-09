@@ -1,6 +1,7 @@
 package com.kinbiko.kata;
 
 public class Athlete {
+    private String name;
 	private int grace;
 	private int strength;
 	private int speed;
@@ -30,5 +31,11 @@ public class Athlete {
 	public void setBalance(int balance) {
 		this.balance = balance;
 	}
+    public String getName() {
+        return name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
 		
 }
